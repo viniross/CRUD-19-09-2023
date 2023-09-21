@@ -1,7 +1,8 @@
 <?php
+//exit(__DIR__.'\_conexao.php');
 // inclusao de arquivos base
-include_once './_conexao.php';
-include_once './_header.php';
+include_once __DIR__.'\_conexao.php';
+include_once __DIR__.'\_header.php';
 ?>
     
 <h1>Setor</h1>
