@@ -14,6 +14,8 @@ if (empty($id)) {
     $sql = "UPDATE setor SET Nome = '$nome', Andar = $andar , Cor = '$cor' WHERE SetorID =".$id;
 }
 
+    $sql = "DELETE FROM setor WHERE SetorID = '$id'";
+
 mysqli_query($conexao,$sql);
 
 

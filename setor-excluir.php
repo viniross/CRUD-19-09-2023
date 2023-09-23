@@ -1,9 +1,7 @@
 <?php
 include_once './_conexao.php';
 
-
-$sql = "";
-
+$id = $_GET['id'];
 
 
 // faz o redirecionamento
